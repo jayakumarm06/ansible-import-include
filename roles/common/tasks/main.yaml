@@ -4,13 +4,13 @@
 
 - name: msg-2
   debug:
-    msg: "Hi from MSG-2 {{ item }}"
+    msg: "Hi from MSG-2"
   tags:
     - hi
 
-# - name: change the variable
-#   set_fact: # We can create variables in tasks using set_fact
-#     OS: "Debian"
+- name: change the variable
+  set_fact: # We can create variables in tasks using set_fact
+    OS: "Debian"
 - name: msg-3
   debug:
     msg: "Hi from MSG-3"
