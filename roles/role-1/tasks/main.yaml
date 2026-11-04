@@ -6,6 +6,6 @@
   tags:
     - hi
 
-  # loop:
-  #   - ramesh
-  #   - suresh
+  loop:
+    - ramesh
+    - suresh
