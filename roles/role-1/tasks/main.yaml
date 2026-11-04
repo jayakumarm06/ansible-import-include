@@ -5,3 +5,7 @@
   when: OS == "RedHat"
   tags:
     - hi
+
+  loop:
+    - ramesh
+    - suresh
