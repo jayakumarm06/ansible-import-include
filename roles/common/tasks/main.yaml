@@ -10,7 +10,7 @@
 #   set_fact: # We can create variables in tasks using set_fact
 #     OS: "Debian"
 - name: msg-3
-  debug:
+  debugg:
     msg: "Hi from MSG-3"
   #when: OS == "RedHat"
 
