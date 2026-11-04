@@ -1,0 +1,5 @@
+- name: include vs import role
+  hosts: local
+  connection: local
+  roles:
+    - role-1
